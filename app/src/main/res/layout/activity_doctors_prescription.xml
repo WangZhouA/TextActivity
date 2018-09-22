@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <include layout="@layout/header_bar"></include>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bgroundA"
+                    android:layout_gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#242424"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    android:text="@string/doctors_prescription"
+                    />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/liquid_number"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#242424"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/top_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/one_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_Two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/two_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/three_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/four_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/five_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Peritoneal_fluid_solubility"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="(%)"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/top_rongdu_One"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_rongdu_Two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_rongdu_Three"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_rongdu_Four"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_rongdu_Five"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Abdominal_time"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hour"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/top_time_One"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_time_Two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:text="-"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_time_Three"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:text="-"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_time_Four"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:text="-"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/top_time_Five"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xiangqing_one"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bgroundA"
+                    android:layout_gravity="center"
+
+                    />
+                <TextView
+                    android:id="@+id/tv_shijian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#242424"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+
+                    />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/liquid_number"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#242424"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/down_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/one_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/two_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/three_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/four_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/five_count"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/TIME"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hour"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/down_time_One"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_time_Two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_time_Three"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_time_Four"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_time_Five"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Peritoneal_fluid_solubility"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="(%)"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/down_rongdu_One"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_rongdu_Two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:text="-"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_rongdu_Three"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:text="-"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_rongdu_Four"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:text="-"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_rongdu_Five"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                > </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chaolv"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="（ml）"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/down_one_fuye"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_two_fuye"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:text="-"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_three_fuye"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:text="-"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_four_fuye"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:text="-"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/down_five_fuye"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:layout_gravity="center"
+                        android:textColor="#242424"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                ></View>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="尿量(ml)"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="血压(mmHg)"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心率(次/分钟)"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="干体重(市斤)"
+                    />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/tv_Niao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="#242424"
+                    />
+                <TextView
+                    android:id="@+id/tv_Xue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="#242424"
+                    />
+                <TextView
+                    android:id="@+id/tv_Xin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="#242424"
+                    />
+                <TextView
+                    android:id="@+id/tv_Gan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="#242424"
+                    />
+
+
+
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

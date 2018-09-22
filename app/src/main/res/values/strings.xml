@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">华康智信</string>
+    <string name="Intelligent_electronic_scale">智能电子秤</string>
+    <string name="not_networks_conntion">没有网络连接,请稍后再试</string>
+
+
+    <!--登录，注册-->
+    <string name="please_loading">请稍等...</string>
+    <string name="please_again_login">请重新登录</string>
+    <string name="please_login">请登录</string>
+    <string name="pls_check_yournet">网络异常，请检查您的网络</string>
+    <string name="error_server">服务器错误</string>
+    <string name="no_data">无数据</string>
+    <string name="pls_input_identity_card">请输入身份证号</string>
+    <string name="pls_input_pwd">请输入密码</string>
+    <string name="remember_user">记住用户</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="login">登录</string>
+    <string name="pls_input_code">请输入验证码</string>
+    <string name="user_protol">用户协议</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="makesure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="pls_input_again">账号或密码错误，请重新输入。</string>
+    <string name="login_error">登录失败</string>
+    <string name="sevendays">7天</string>
+    <string name="fourteendays">14天</string>
+    <string name="twentyonedays">21天</string>
+    <string name="twentyeightdays">28天</string>
+    <string name="user_xieyi">用户协议</string>
+    <string name="xieyi_msg">在您使用本网站前请认真阅读以下内容；如果您对这份说明没有异议，则可以继续使用本网站的服务；您通过任何途径或方式使用本网站的服务（无论该服务是否收费）的行为，均会被认为是对本说明的认可。\n  一、本居家用腹膜透析网站的医院端，均是国内具有医疗资质的各级医院相关联科室，例如**县人民医院、**市中心医院、**省人民医院或**大学第*附属医院等。\n 二、本网站不负责判读数据和居家腹透知识解答，也不销售任何药品和向用户推送保健知识，用户有治疗、护理或处方药品等方面的问题，请直接与所属医院端联系。\n 三、本网站为用户介绍一些与腹膜透析居家治疗有关的产品，请直接与购物网站联系购物，本网站不介入购物、配货、换货、付款和服务等流程。\n 四、用户在本网站医院端注册时提供的一些个人资料，本网站除您本人同意及第十条规定外，不会将用户的任何资料以任何方式泄露给任何一方；但用户将个人密码告知他人或与他人共享注册账户，由此导致的任何个人资料泄露，本网站不负任何责任。\n 五、用户在使用居家腹膜透析管理系统（硬件）时，须严格按照使用说明进行操作，避免操作不当引起的数据偏差，造成医护人员的误判断。也可以查看所属医院端网站上的各种视频、宣传资料等，提高自己的居家护理水平。\n 六、本网站上的图片、用户的换液操作、教学视频、宣传展板等资料，均由国内具有医疗资质的各级医院自行发表，并同时已授权本网站独家使用，如其他人转载需取得医院端和本网站的同意。\n 七、如果发现医院端的图片、视频、宣传展板等文件有侵权行为请直接与医院端联系，同时用电子邮件通知我们，以迅速采取适当措施，避免给双方造成不必要的经济损失；本站网站只对医院端负有告知和督促删除责任，不对侵权等造成的经济损失负责，亦不负任何法律责任。\n 八、本网站（软件）半年使用费用为600元，一年使用费为1200元，不中途退费，用户使用支付宝或微信充值缴费后获得网站软件的使用资格，中断缴费或未缴费所造成的自己在网站各项数据的丢失和无法登陆与网站无关。\n 九、如出现网络黑客对本网站进行攻击、盗取客户资料的情况，网站承诺及时安排技术人员处理并抢救用户信息，但用户被黑客盗取资料造成的损失，本网站不承担责任。若因线路及非本网站控制范围外的硬件故障或其它不可抗力而导致暂停服务，于暂停服务期间造成的一切不便与损失，本网站不负任何责任。\n 十、当医院端需要用户数据做临床研究时，政府部门、司法机关等依照法定程序要求本网站披露个人资料时，本网站将根据医院端和执法单位之要求，为公共健康和社会安全等目的提供个人资料，在此情况下之任何披露，本网站均免责。\n 十一、所有登陆网站者必须遵守国家法律、法规的规定，本声明未涉及的问题参见国家有关法律法规，当本声明与国家法律法规冲突时，以国家法律法规为准，最终解释权归北京华康智信科技有限公司所有。\n </string>
+    <string name="tongyi">同意</string>
+    <string name="notongyi">不同意</string>
+    <string name="host">北京华康智信科技有限公司</string>
+    <string name="youxiang">客服邮箱huakangzhixin@126.COM</string>
+
+
+    <!--左侧-->
+    <string name="network_configuration">网络配置</string>
+    <string name="debit_note">缴费充值</string>
+    <string name="Bulletin_Board">宣传栏</string>
+    <string name="video_course">宣传视频</string>
+    <string name="System_answer">测试题</string>
+    <string name="setting">修改密码</string>
+    <string name="login_out">退出</string>
+    <string name="msg">消息</string>
+
+
+    <!--公告栏-->
+    <string name="title_one">标题一</string>
+    <string name="title_two">标题二</string>
+    <string name="title_three">标题三</string>
+    <string name="title_four">标题四</string>
+    <string name="title_five">标题五</string>
+    <string name="title_six">标题六</string>
+    <string name="good_hand_washing">如何正确洗手</string>
+    <string name="no_date">暂无数据</string>
+
+
+    <!--系统答题-->
+    <string name="Classification_one">分类一</string>
+    <string name="Classification_two">分类二</string>
+    <string name="Classification_three">分类三</string>
+    <string name="Classification_four">分类四</string>
+    <string name="Classification_five">分类五</string>
+    <string name="Classification_six">分类六</string>
+
+
+    <!-- 缴费充值-->
+
+    <string name="buy">购买</string>
+    <string name="detail">明细</string>
+    <string name="balance">余额</string>
+
+
+    <!--购买-->
+
+    <string name="buy_one">￥500/6个月</string>
+    <string name="buy_two">￥900/12个月</string>
+    <string name="buy_Electronic_scale">购买电子秤</string>
+
+    <string name="WX">微信</string>
+    <string name="ZFB">支付宝</string>
+    <string name="determine">确定</string>
+    <string name="buy_result">支付成功</string>
+    <string name="buy_result_false">支付失败</string>
+    <string name="The_detail">明细</string>
+    <string name="billingDetails">账单详情</string>
+    <string name="View_electronic_invoice">查看电子发票</string>
+    <string name="Terms_of_payment">付款方式</string>
+    <string name="Transaction_amount">交易金额</string>
+    <string name="Creation_time">创建时间</string>
+    <string name="The_order_number">订单号</string>
+    <string name="Transaction">交易号</string>
+    <string name="But_the">收款方</string>
+
+
+    <!--配置网络-->
+    <string name="connection_Wifi">连接Wi-Fi</string>
+    <string name="The_next_step">下一步</string>
+    <string name="ed_wif">请输入Wi-Fi密码</string>
+    <string name="Please_select_a_network_connection">请选择连接的网络</string>
+    <string name="connectionDervice">连接设备</string>
+    <string name="lock_dervice">发现设备</string>
+    <string name="time_out">超时</string>
+    <string name="connect_true">配网完成</string>
+    <string name="Reconnect">重新连接</string>
+    <string name="reset_msg">重置智能设备或检查路由器和手机网络</string>
+    <string name="Device_connection">设备连接中</string>
+    <string name="The_device_has_no_network_configured">设备未配置网络</string>
+    <string name="no_monery">您的套餐即将过期，请及时充值以免影响使用</string>
+
+    <!--登录-->
+    <string name="Please_check_whether_the_account_password_is_correct">请检查账号密码是否正确</string>
+    <string name="password_leng_erro">密码输入长度有误</string>
+    <string name="login_erro">登录失败</string>
+    <string name="login_erro_msg">账号或密码错误，请重新输入。</string>
+
+
+    <!--首页-->
+    <string name="Peritoneal_filtration_rate">腹透液滤量(ml)</string>
+    <string name="onclick_days">点击某天数值可查看详情</string>
+    <string name="The_mean_ultrafiltration">超滤均值</string>
+    <string name="Ultrafiltration_difference">超滤差值</string>
+    <string name="rising">上升</string>
+    <string name="Urine_output">尿量(ml)</string>
+    <string name="The_mean_of_urine">尿量均值</string>
+    <string name="Difference_of_urine">尿量差值</string>
+    <string name="weight">体重(g)</string>
+    <string name="The_weight_average">体重均值</string>
+    <string name="Weight_difference">体重差值</string>
+    <string name="Blood_pressure_heart_rate">血压/(mmHg)/心率(次/分钟)</string>
+    <string name="High_pressure_mean">高压均值</string>
+    <string name="High_pressure_difference">高压差值</string>
+    <string name="Low_average">低压均值</string>
+    <string name="Low_difference">低压差值</string>
+    <string name="The_mean_heart_rate">心率均值</string>
+    <string name="The_mean_heart_difference">心率差值</string>
+    <string name="down_up">下降</string>
+
+
+    <!--左侧滑动-->
+    <string name="Please_insert_memory_card">请插入内存卡</string>
+    <string name="xiangji">相机</string>
+    <string name="xiangce">相册</string>
+    <string name="sheqi">舍弃</string>
+    <string name="xuanqu">选取</string>
+    <string name="exit_login">退出登录</string>
+    <string name="exit_login_msg">是否需要退出登录！</string>
+
+
+    <string name="titleTestSummary">(共20题，每题5分)</string>
+    <string name="tidaan">提交答案</string>
+    <string name="daan_btn">全部做完可提交</string>
+    <string name="shitixiaojie">试题小结</string>
+    <string name="trueAnswer">正确：</string>
+    <string name="look_anwser">查看正确答案</string>
+    <string name="erros">错误：</string>
+    <string name="countFen">得分：</string>
+    <string name="min">分</string>
+    <string name="trueAnswers">正确答案</string>
+    <string name="daoqi">到期时间：</string>
+
+
+    <!--视频-->
+    <string name="people">人参与</string>
+
+    <!--  设备 -->
+    <string name="dervice_item">设备列表</string>
+    <string name="dianzicheng">智能电子秤</string>
+    <string name="online">设备在线</string>
+    <string name="noline">设备不在线</string>
+    <string name="network">更换网络</string>
+    <string name="rename">重命名</string>
+    <string name="hide">删除</string>
+    <string name="redervice_name">修改设备名字</string>
+    <string name="dervice">设备</string>
+
+
+    <!--详情-->
+    <string name="doctors_prescription">医生处方</string>
+    <string name="liquid_number">换液次数</string>
+
+    <string name="one_count">第1次</string>
+    <string name="two_count">第2次</string>
+    <string name="three_count">第3次</string>
+    <string name="four_count">第4次</string>
+    <string name="five_count">第5次</string>
+
+    <string name="Peritoneal_fluid_solubility">腹透液溶度</string>
+    <string name="Abdominal_time">留腹时间</string>
+    <string name="hour">(小时)</string>
+    <string name="xiangqing_one">4.25%数据也可用于氨基酸和艾考糊精腹透液</string>
+    <string name="TIME">时间</string>
+    <string name="chaolv">腹透液超滤</string>
+    <string name="ti_si">2017国家网络安全宣传周“电信日”提示您：不要轻信陌生电话、短信；不要轻易点击短信中的链接，不要安装不了解的软件；千万不要按陌生电话、短信要求转账汇款！—华康智信</string>
+    <string name="xiangq">详情</string>
+    <string name="colse">关闭</string>
+    <string name="deng">登录即表示您同意华康智信居家腹膜透析管理系统协议。</string>
+
+
+    <string name="down">下降</string>
+    <string name="Up">上升</string>
+
+    <string name="ed_old">请输入旧密码</string>
+    <string name="ed_new">请输入新密码</string>
+    <string name="ed_two_new">请确认新密码</string>
+    <string name="re_user_name">修改密码</string>
+    <string name="pass_no_null">密码不能为空</string>
+    <string name="changdu">密码长度不能小于6位</string>
+    <string name="pass_no_yizhi">密码不一致</string>
+    <string name="old_pass_erro">旧密码不对</string>
+    <string name="old_pass_syccess">修改成功</string>
+</resources>

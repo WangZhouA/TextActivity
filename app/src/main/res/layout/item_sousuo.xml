@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Lin_sousuo"
+    android:background="@color/bgroundA"
+    android:orientation="vertical"
+    android:visibility="gone"
+    >
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <EditText
+            android:id="@+id/et_sousuo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ed_bg"
+            android:layout_weight="2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@mipmap/search"
+            android:paddingLeft="10dp"
+            android:imeActionLabel="@string/makesure"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+
+            android:drawablePadding="5dp"
+            />
+
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_weight="9"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+</LinearLayout>

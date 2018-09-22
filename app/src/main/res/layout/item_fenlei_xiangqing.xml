@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/lin_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_yiyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/user"
+        android:text="来自宝安人民医院"
+        android:gravity="center"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:45"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title_xiangqing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如何正确的洗手？"
+        android:textSize="18dp"
+        android:textColor="#242424"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    
+    <ImageView
+        android:id="@+id/im_pic"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/picaa"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/tv_xiangqing_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如何正确洗手，医生有话要说。其实大多数人并不会正确的洗手，多是随便冲下就完了，只是走形式，没有起到真正左右哈哈哈哈哈和哈哈哈哈哈哈哈哈哈哈哈哈..."
+        android:lines="2"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_guanca_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/close"
+        android:text="1088"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#CDCDCD"
+        ></View>
+
+    </LinearLayout>
+
+</LinearLayout>

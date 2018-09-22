@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+
+
+   <include layout="@layout/header_bar"></include>
+
+
+    <EditText
+        android:background="@null"
+        android:id="@+id/tv_old"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/lock"
+        android:maxLength="20"
+        android:layout_marginBottom="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/ed_old"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CDCDCD"
+        ></View>
+    <EditText
+        android:background="@null"
+        android:id="@+id/tv_new"
+        android:maxLength="20"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/lock"
+        android:layout_marginBottom="15dp"
+
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/ed_new"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CDCDCD"
+        ></View>
+    <EditText
+        android:background="@null"
+        android:id="@+id/tv_new_newpass"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="20"
+        android:drawableLeft="@mipmap/lock"
+        android:layout_marginBottom="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/ed_two_new"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CDCDCD"
+        ></View>
+
+
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_repass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_button"
+        android:text="@string/makesure"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+
+</LinearLayout>

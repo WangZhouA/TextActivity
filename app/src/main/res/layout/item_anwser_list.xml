@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_shape_bg"
+        android:layout_gravity="center_horizontal"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bgroundA"
+            >
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/for_tv_titles"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tab_workbench_textcolor_nor"
+                android:text="@string/shitixiaojie"
+                android:layout_centerInParent="true"
+                />
+
+
+            <ImageView
+                android:id="@+id/im_X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/close_x"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trueAnswer"
+                    android:textColor="#242424"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_true_minute"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16"
+                    android:textColor="#242424"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                ></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/erros"
+                    android:textColor="#242424"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_erros_minute"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16"
+                    android:textColor="#242424"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                ></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/countFen"
+                    android:textColor="#242424"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_countFen_minute"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16"
+                    android:textColor="#242424"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CDCDCD"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                ></View>
+
+                <Button
+                    android:id="@+id/btn_yes"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/look_anwser"
+                    android:background="@drawable/btn_bgs_shape_blue"
+                    android:textColor="#FFF"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

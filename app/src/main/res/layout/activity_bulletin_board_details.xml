@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.BulletinBoardDetailsActivity">
+
+
+
+    <include layout="@layout/header_bar"></include>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/board_details_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp"
+            android:textColor="#242424"
+            android:layout_centerVertical="true"
+
+            />
+
+
+        <TextView
+            android:id="@+id/board_details_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/board_details_yiyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/user"
+
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/board_details_pic"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@mipmap/picaa"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:id="@+id/board_details_msg"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/board_details_people"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/close"
+        android:layout_marginLeft="10dp"
+
+        android:gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 边框
+      链接：http://www.jianshu.com/p/3f5fc4ef2ac7-->
+    <stroke
+        android:width="0.8dp"
+        android:color="#ffffff"/>
+    <!--填充色-->
+    <solid android:color="@color/bgroundA"/>
+
+    <!-- 圆角 -->
+    <corners android:radius="5dp"/>
+
+</shape>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <include layout="@layout/header_bar"></include>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/lin_white_bg"
+        android:layout_margin="15dp"
+        >
+
+
+        <TextView
+            android:id="@+id/TV_MSG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="复诊"
+            android:textSize="15dp"
+            android:textColor="#242424"
+            android:layout_margin="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/TV_TIME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

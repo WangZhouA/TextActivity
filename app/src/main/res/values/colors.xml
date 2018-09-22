@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1589EE</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor_hint">#BDBDBD</color>
+    <color name="textColor_rememberuser">#168BF9</color>
+    <color name="textColor_forget_pwd">#757575</color>
+    <color name="buttonColor_enable">#1589EE</color>
+    <color name="buttonColor_disable">#A1D0F8</color>
+    <color name="main_blue">#1589EE</color>
+    <color name="tab_home_textcolor_sel">#1E8AE8</color>
+    <color name="tab_home_textcolor_nor">#ffffff</color>
+    <color name="tab_workbench_textcolor_nor">#ffffff</color>
+    <color name="bground">#20A0FF</color>
+    <color name="bgroundA">#249DFF</color>
+    <color name="bgroundH">#CDCDCD</color>
+    <color name="red">#FF0000</color>
+
+</resources>

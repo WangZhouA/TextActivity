@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="340dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Blood_pressure_heart_rate"
+                    android:textColor="#242424"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/onclick_days"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/High_pressure_mean"
+                    android:textSize="12sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_triad_High"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/High_pressure_difference"
+                    android:layout_marginLeft="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_High_pressure_difference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_High_pressure_color"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rising"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/red"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_rising_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/red"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Low_average"
+                    android:textSize="12sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_Low__average"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Low_difference"
+                    android:layout_marginLeft="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_Low_difference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_Low_color"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rising"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/red"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_rising_Low_difference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/red"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/The_mean_heart_rate"
+                    android:textSize="12sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_The_mean_heart_rate"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/The_mean_heart_difference"
+                    android:layout_marginLeft="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_The_mean_heart_difference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_The_mean_heart_color"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/down_up"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/red"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_rising_down_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/red"
+                    />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:id="@+id/LineChartView_triad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone"
+                    />
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/line_chart_six"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <myapplication66.yanglh6.example.com.textactivity.utils.HorzonScrollLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+      android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/tv_time_triad_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="06:00"
+            />
+        <TextView
+            android:id="@+id/tv_time_triad_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="07:00"
+            />
+        <TextView
+            android:id="@+id/tv_time_triad_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="08:00"
+            />
+        <TextView
+            android:id="@+id/tv_time_triad_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="09:00"
+            />
+        <TextView
+            android:id="@+id/tv_time_triad_five"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10:00"
+            />
+        <TextView
+            android:id="@+id/tv_time_triad_six"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="11:00"
+            />
+        <TextView
+            android:id="@+id/tv_triad_seven"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12:00"
+            android:textColor="#242424"
+            />
+    </myapplication66.yanglh6.example.com.textactivity.utils.HorzonScrollLinearLayout>
+
+</LinearLayout>

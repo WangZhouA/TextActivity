@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <include layout="@layout/header_bar"></include>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_noNetWork"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FFF5E5"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/prompting"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/The_device_has_no_network_configured"
+            android:gravity="center"
+            android:drawablePadding="20dp"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/into_reb"
+            android:layout_marginRight="20dp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_noTaoCan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FFF5E5"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/no_monery"
+            android:gravity="center"
+            android:drawablePadding="20dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/close_im_monery"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/close_red"
+            android:layout_marginRight="20dp"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgroundA"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/music_ll_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            >
+
+
+            <TextView
+                android:id="@+id/history_day"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/sevendays"
+                android:textColor="#FFF"
+                android:textSize="13dp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                ></View>
+            <TextView
+                android:id="@+id/history_week"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/fourteendays"
+                android:textColor="#FFF"
+                android:textSize="13dp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                ></View>
+            <TextView
+                android:id="@+id/history_mouth"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/twentyonedays"
+                android:textColor="#FFF"
+                android:textSize="13dp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                ></View>
+            <TextView
+                android:id="@+id/history_ji"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/twentyeightdays"
+                android:textColor="#FFF"
+                android:textSize="13dp"
+
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <include layout="@layout/mian_first_peritoneal_fluidultrafiltration_volume"></include>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#EFEEEF"
+            ></View>
+        <include layout="@layout/mian_first_urine_output"></include>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#EFEEEF"
+            ></View>
+        <include layout="@layout/main_first_weight"></include>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#EFEEEF"
+            ></View>
+        <include layout="@layout/main_first_triad_charts"></include>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
